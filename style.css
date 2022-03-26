@@ -172,3 +172,31 @@ a {
     font-weight: 800;
     align-self: flex-end;
 }
+
+
+/* Call to Aciton */
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 75px 10%;
+    border-radius: 5px;
+    padding: 32px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-text {
+    color: #F9FAF8;
+    gap: 8px;
+}
+
+.call-to-action-button button {
+    width: auto;
+    height: auto;
+    padding: 6px 40px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
