@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
     font-family: Roboto, "Times New Roman", sans-serif;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Establish flex direction for all relevant flexbox divs */
 
 body,
 .hero-left,
@@ -21,6 +24,7 @@ body,
 }
 
 .header,
+.header-links,
 .hero-container,
 .random-image-container,
 .call-to-action,
@@ -29,11 +33,17 @@ body,
     flex-direction: row;
 }
 
+
+/* Set all remaining style properties */
+
+
+/* header properties */
+
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 8px 10%;
+    background-color: #1F2937;
 }
 
 .header-logo {
@@ -42,9 +52,7 @@ body,
 }
 
 .header-links {
-    display: flex;
     gap: 1em;
-    background-color: red;
     font-size: 18px;
     color: #E5E7EB
 }
@@ -54,7 +62,16 @@ a {
     color: white;
 }
 
-.header,
+
+/* hero properties */
+
 .hero-container {
     background-color: #1F2937;
+    padding: 32px 10%;
+    justify-content: space-between;
+}
+
+.hero-left {
+    flex-wrap: wrap;
+    max-width: 40%;
 }
