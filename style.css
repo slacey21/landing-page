@@ -2,11 +2,31 @@
 * {
     font-family: Roboto, "Times New Roman", sans-serif;
     border: solid 2px red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
+body,
+.hero-left,
+.random-container,
+.quote-container,
+.random-one,
+.random-two,
+.random-three,
+.random-four,
+.call-to-action-text {
     display: flex;
     flex-direction: column;
+}
+
+.header,
+.hero-container,
+.random-image-container,
+.call-to-action,
+.footer {
+    display: flex;
+    flex-direction: row;
 }
 
 .header {
