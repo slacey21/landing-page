@@ -82,6 +82,7 @@ a {
 .hero-right {
     width: 45%;
     background-color: grey;
+    text-align: center;
 }
 
 .hero-main-text {
@@ -98,9 +99,52 @@ a {
 .hero-button {
     width: auto;
     height: auto;
-    padding: 3px 6px;
+    padding: 4px 24px;
     border: none;
     border-radius: 5px;
     background-color: #3882F6;
     color: #E5E7EB;
+    font-weight: bold;
+}
+
+
+/* Random */
+
+.random-container {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #F9FAF8;
+    padding-top: 16px;
+    padding-bottom: 75px;
+}
+
+.random-header {
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.random-image-container {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.random-one,
+.random-two,
+.random-three,
+.random-four {
+    flex-wrap: wrap;
+    width: 12%;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.random-container img {
+    width: 120px;
+    height: 120px;
+    border: solid 3px #3882F6;
+    border-radius: 8%;
 }
